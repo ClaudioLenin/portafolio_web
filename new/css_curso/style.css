@@ -1,0 +1,182 @@
+#titulo {
+    color: tomato;
+}
+
+p.texto {
+    color: slateblue;
+}
+
+p.especial {
+    color: mediumseagreen;
+}
+
+
+div p {
+    color: aquamarine;
+}
+
+div h2,
+div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    margin: 0;
+    /* color: black; */
+}
+
+.color {
+    /* border: 5px red dashed; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+#fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* opacity: 0.3; */
+    height: 400px;
+    /* background-image: url("assets/img/fondo.jpg");
+    
+    background-repeat: repeat-y;
+    background-position: center bottom; */
+    background: #f00 url("assets/img/fondo.jpg") repeat-y center bottom / 100px 100px;
+    background-size: 400px 200px;
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+    color: blueviolet
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    background-color: cyan;
+    /* list-style-type: none; */
+    /* padding-left: 0; */
+    list-style-position: inside;
+    list-style-type: georgian;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: solid 1px #eeee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaaa;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: #f00;
+}
+
+.inline {
+    display: inline;
+}
+
+/* #position{
+    position: sticky;
+    top: 25px;
+    left: 20px;
+} */
+
+.container{
+height: 200px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right{
+    float: right;
+}
+
+.column{
+    /* border: solid 1px #ddd;
+    border-radius: 5px; */
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+
+.center{
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
