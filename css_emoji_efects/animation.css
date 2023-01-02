@@ -1,0 +1,59 @@
+@keyframes wave {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(-50deg);
+  }
+  66% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-50px);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-25px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+p {
+  text-align: center;
+  font-size: 100px;
+}
+p.wave:hover {
+  animation-name: wave;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+}
+p.explode {
+  transition: all 2s ease-out;
+}
+p.explode:hover {
+  transform: scale(3);
+  opacity: 0;
+}
+p.bounce:hover {
+  animation-name: bounce;
+  animation-duration: 2s;
+}
+body {
+  display: flex;
+  justify-content: center;
+}

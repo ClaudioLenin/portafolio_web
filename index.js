@@ -1,6 +1,10 @@
 $(document).ready(function () {
   let data = [
     {
+      item: "CSS ANIMATION",
+      url: "./css_animation/index.html",
+    },
+    {
       item: "CSS ANIMATION CIRCLE",
       url: "./css_animation_circle/index.html",
     },
@@ -12,6 +16,15 @@ $(document).ready(function () {
       item: "CSS ARCHITECTING",
       url: "./css_architecting/index.html",
     },
+    {
+      item: "CSS EMOJI EFECTS",
+      url: "./css_emoji_efects/index.html",
+    },
+    {
+      item: "CSS HOVER EFECTS",
+      url: "./css_hover_effects/index.html",
+    },
+    
     {
       item: "CSS NEOMORFISMO LOGIN",
       url: "./css_neomorfismo_login/index.html",
@@ -29,6 +42,10 @@ $(document).ready(function () {
       url: "./css_notes/index.html",
     },
     {
+      item: "CSS PEN",
+      url: "./css_pen/index.html",
+    },
+    {
       item: "JS POO",
       url: "./js_poo/index.html",
     },
@@ -39,6 +56,18 @@ $(document).ready(function () {
     {
       item: "PORTAFOLIO 1",
       url: "./portafolio1/index.html",
+    },
+    {
+      item: "WEBAPP CALCULATOR",
+      url: "./webapp_calculator/index.html",
+    },
+    {
+      item: "WEBAPP LOGIN DOUBLE SLIDER",
+      url: "./webapp_login_double_slider/index.html",
+    },
+    {
+      item: "WEBSITE PROGRESSFORM",
+      url: "./webapp_progressform/index.html",
     },
     {
       item: "WEBSITE FRUITOPIA",

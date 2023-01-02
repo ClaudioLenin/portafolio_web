@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selectores</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+        
+    </style>
+    </head>
+    <body>
+        <br>
+        <a href="../index.html">HOME</a>
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <h1>SELECTORS</h1>
+        </div>
+        <table>
+            <tr>
+                <th>TYPE</th>
+                <th>HTML</th>
+                <th>CSS</th>
+            </tr>
+            <tr>
+                <td>IDs</td>
+                <td>
+                    <code>
+                        <b>&lt;h1 id="main-title"&gt;</b>
+                        Our header
+                        <b>&lt;/h1&gt;</b>
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        #main-title {
+                        <blockquote><span class="property">color</span>:red;</blockquote>
+                        }
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>ATTRIBUTES</td>
+                <td>
+                    <code>
+                        <b>&lt;button disabled&gt;</b>
+                        Click
+                        <b>&lt;/button&gt;</b>
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        [disabled] {
+                        <blockquote><span class="property">color</span>:red;</blockquote>
+                        }
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>ELEMENTS</td>
+                <td>
+                    <code>
+                        <b>&lt;h1&gt;</b>
+                        Our header
+                        <b>&lt;/h1&gt;</b>
+                        <br>
+                        <b>&lt;p&gt;</b>
+                        The Blog Post
+                        <b>&lt;/p&gt;</b>
+                        <br>
+                        <b>&lt;div&gt;</b>
+                        More Info
+                        <b>&lt;/div&gt;</b>
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        h1 {
+                        <blockquote><span class="property">color</span>:red;</blockquote>
+                        }
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>CLASSES</td>
+                <td>
+                    <code>
+                        <b>&lt;h1 class="blog-post"&gt;</b>
+                        Our header
+                        <b>&lt;/h1&gt;</b>
+                        <br>
+                        <b>&lt;p class="blog-post"&gt;</b>
+                        The Blog Post
+                        <b>&lt;/p&gt;</b>
+                        <br>
+                        <b>&lt;div class="blog-post"&gt;</b>
+                        More Info
+                        <b>&lt;/div&gt;</b>
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        .blog-post {
+                        <blockquote><span class="property">color</span>:red;</blockquote>
+                        }
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>UNIVERSAL</td>
+                <td>
+                    <code>
+                        <b>&lt;h1&gt;</b>
+                        Our header
+                        <b>&lt;/h1&gt;</b>
+                        <br>
+                        <b>&lt;p&gt;</b>
+                        The Blog Post
+                        <b>&lt;/p&gt;</b>
+                        <br>
+                        <b>&lt;div&gt;</b>
+                        More Info
+                        <b>&lt;/div&gt;</b>
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        * {
+                        <blockquote><span class="property">color</span>:red;</blockquote>
+                        }
+                    </code>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div>
+            <h2>Notes:</h2>
+            <ul>
+                <li>
+                    "*" has the lowest priority
+                </li>
+                <li>
+                    &lt;Tag&gt; and ::Pseudo elements have the second lowest priority
+                </li>
+                <li>
+                    Class, :pseudo class and [attribute] selectors have the third lowest priority
+                </li>
+                <li>
+                    Next in line are the #ID selector
+                </li>
+                <li>
+                    Finally the inline styles will have highest priority
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.maine-div {
+  height: 250px;
+  width: 1000px;
+  border: 1px solid #000;
+  margin: 40px auto;
+  text-align: center;
+}
+.basice-design {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  font-size: 35px;
+  line-height: 200px;
+  color: #fff;
+  display: inline-block;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.div1 {
+  background: rgb(255, 0, 55);
+  transform: translate(0);
+}
+.div1:hover {
+  transform: translate(-10px, 20px);
+}
+.div2 {
+  background: red;
+  transform: rotate(0);
+}
+.div2:hover {
+  transform: rotate(360deg);
+}
+.div3 {
+  background: blue;
+  transform: skew(0);
+}
+.div3:hover {
+  transform: skew(40deg, 35deg);
+}
+.div4 {
+  background: green;
+  transform: scale(1);
+}
+.div4:hover {
+  transform: scale(1.5);
+}
