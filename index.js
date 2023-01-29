@@ -1,6 +1,10 @@
 $(document).ready(function () {
   let data = [
     {
+      item: "CSS ANALOG CLOCK",
+      url: "./css_analog_clock/index.html",
+    },
+    {
       item: "CSS ANIMATION",
       url: "./css_animation/index.html",
     },
@@ -19,6 +23,14 @@ $(document).ready(function () {
     {
       item: "CSS EMOJI EFECTS",
       url: "./css_emoji_efects/index.html",
+    },
+    {
+      item: "CSS GLASSMORPHISM CARD",
+      url: "./css_glassmorphism_card/index.html",
+    },
+    {
+      item: "CSS GLASSMORPHISM CARD 1",
+      url: "./css_glassmorphism_card1/index.html",
     },
     {
       item: "CSS HOVER EFECTS",
@@ -41,6 +53,7 @@ $(document).ready(function () {
       item: "CSS NOTES",
       url: "./css_notes/index.html",
     },
+   
     {
       item: "CSS PEN",
       url: "./css_pen/index.html",
