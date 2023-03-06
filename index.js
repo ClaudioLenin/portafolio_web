@@ -33,6 +33,10 @@ $(document).ready(function () {
       url: "./css_glassmorphism_card1/index.html",
     },
     {
+      item: "CSS GLASSMORPHISM LOGIN",
+      url: "./css_glassmorphism_login/index.html",
+    },
+    {
       item: "CSS HOVER EFECTS",
       url: "./css_hover_effects/index.html",
     },
